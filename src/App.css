@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('./images/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:sans-serif;
+}
+
+.app{
+  text-align: center;
+  margin: 0 auto;
+  padding: 18px;
+  height: 100px;
+  width: 1400px;
+  background-color: rgb(133, 254, 133);
+  border-radius: 16px;
+}
+
+.listagem{
+  background: #3fdf4ae0;
+  margin:  0 auto;
+  padding: 10px;
+  width: 1300px;
+  margin-top: 18px;
+  display: block;
+  border-radius: 16px;
+  border: 2px solid #0ca65c;
+}
+
+.listagem div{
+  margin: 8px;
+  font-size: 16px;
+  align-items: center;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.concluir{
+  background-color: rgb(138, 80, 193);
+  margin: 7px;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.remover{
+  background-color: rgb(138, 80, 193);
+  margin: 7px;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.cadastrar{
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.cadastrar input{
+  width: 100%;
+  height: 24px;
+  border-radius: 7px;
+  border: 2px solid #0ca65c;
+  padding: 2px;
+}
